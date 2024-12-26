@@ -1,0 +1,15 @@
+
+.bg-container{
+    background-image: url('https://www.specialholidays.com/blog/wp-content/uploads/2021/04/itc-grand-chola-chennai-tamil-nadu.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+.heading{
+    font-size: 100px;
+    color: #ffffff;
+    font-family: 'sans-serif';
+}
+#button{
+    margin-top: 500px;
+}

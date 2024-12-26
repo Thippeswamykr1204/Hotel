@@ -1,0 +1,62 @@
+.head{
+    font-size: 50px;
+    font-family: 'roboto';
+    text-align: center;
+    font-weight: 700;
+}
+.image{
+    border-radius: 10px;
+}
+.h5{
+    font-size: 60px;
+    font-family: 'roboto';
+    font-weight: 700; 
+}
+.para{
+    font-size: 24px;
+    font-family: 'roboto';
+    font-weight: 700; 
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  .menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+  } 
+  .menu-item h3 {
+    font-size: 1.2em;
+    color: #444;
+  }
+  
+  .menu-item p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .btn-add, .btn-view-cart {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-add:hover, .btn-view-cart:hover {
+    background-color: #0056b3;
+  }
+  .text{
+    color: black;
+    font-family: 'roboto';
+  }

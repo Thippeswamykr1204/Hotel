@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="#" onclick="window.location.href='hotel.html';" class="text">Back<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#sectionVegetarian" class="text">Vegetarian</a>
+            <a class="nav-link" href="#sectionNon-Vegetarian" class="text">Non-Vegetarian</a>
+            <a class="nav-link" href="#sectionDesserts" class="text">Desserts</a>
+            <a class="nav-link" href="#sectionCocktails" class="text">Cocktails</a>
+            
+          </div>
+        </div>
+      </nav>
+    <h1 class="head mt-5" id="sectionVegetarian">Vegetarian</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Panner Tikka Masala</h5>
+                     <img src="https://i0.wp.com/cookingfromheart.com/wp-content/uploads/2017/03/Paneer-Tikka-Masala-4.jpg?fit=1024%2C683&ssl=1" class="image" height="200" width="300"/>
+                     <p class="para">Rs.100</p>
+                     <button class="btn btn-success" onclick="addToCart('Panner Tikka Masala', 100)">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4 pb-3">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Kaju Masala</h5>
+                     <img src="https://tse4.mm.bing.net/th?id=OIP.y9QqfUc3R_7kUpUiRFyP-wHaEK&pid=Api&P=0&h=180" class="image" height="200" width="300"/>
+                     <p class="para">Rs.160</p>
+                     <button class="btn btn-success" onclick="addToCart('Kaju Masala', 160)">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4 pb-3">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Mushroom Masala</h5>
+                     <img src="https://4.bp.blogspot.com/-lRs29vIhqf0/WK0t7Dp91xI/AAAAAAAAC0Y/BAS5MfDgITgwJgPs3njT3AFsaWFmCg9eQCLcB/s1600/mushroom%2Bmasala%2Brecipe.JPG" class="image"  height="200" width="300"/>
+                     <p class="para">Rs.200</p>
+                     <button class="btn btn-success" onclick="addToCart('Mushroom Masala', 200)">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4 pb-3">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Dal Fry</h5>
+                     <img src="https://tse2.mm.bing.net/th?id=OIP.WcZ4DSQUYihBXammFhJzpwHaHa&pid=Api&P=0&h=180" class="image"  height="200" width="300"/>
+                     <p class="para">Rs.150</p>
+                     <button class="btn btn-success" onclick="addToCart('Dal Fry', 150)">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4 pb-3">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Baby corn Tikka Masala</h5>
+                     <img src="https://2.bp.blogspot.com/-IdNPS1jrCps/V6H0LhAFnGI/AAAAAAAALV4/6Fm27d8CZn0ZEkUBHW2VdwimzbA_j0QLgCLcB/w1200-h630-p-k-no-nu/Baby%2Bcorn%2Btikkamasala.jpg" class="image" height="200" width="300"/>
+                     <p class="para">Rs.130</p>
+                     <button class="btn btn-success" onclick="addToCart('Baby corn Tikka Masala', 130)">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4 pb-3">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Ghee Rice</h5>
+                     <img src="https://lonumedhu.com/sites/default/files/Ghee%20Rice%203.jpg" class="image" height="200" width="300"/>
+                     <p class="para">Rs.120</p>
+                     <button class="btn btn-success" onclick="addToCart('Ghee Rice', 120)">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4 pb-3">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Gobi Rice</h5>
+                     <img src="https://4.bp.blogspot.com/-belp7PkgKII/Wceea9buTSI/AAAAAAAAbKg/ktUUm7wmUmYpY5CUQtHZq8u4fhSdLQrfACEwYBhgL/s1600/9159.jpg" class="image" height="200" width="300"/>
+                     <p class="para">Rs.120</p>
+                     <button class="btn btn-success" onclick="addToCart('Gobi Rice', 120)">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4 pb-3">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Fried Rice</h5>
+                     <img src="https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Fried-Rice-min.jpg" class="image" height="200" width="300"/>
+                     <p class="para">Rs.120</p>
+                     <button class="btn btn-success" onclick="addToCart('Fried Rice', 120)">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4 pb-3">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Palak Rice</h5>
+                     <img src="https://2.bp.blogspot.com/-o_0iUGjM8mQ/WEV8vKiFuiI/AAAAAAAACI8/RopD_DuapAA_dmaqVIbrdxUAPB8j6pufwCLcB/s1600/IMG_4368.JPG" class="image" height="200" width="300"/>
+                     <p class="para">Rs.120</p>
+                     <button class="btn btn-success" onclick="addToCart('Palak Rice', 120)">Add to cart</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <h1 class="head mt-5"  id="sectionNon-Vegetarian">Non-Vegetarian</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Chicken 65</h5>
+                     <img src="http://swatisani.net/kitchen/wp-content/uploads/2014/11/1200px-Chicken_65_Dish.jpg" class="image" height="200" width="300"/>
+                     <p class="para">Rs.160</p>
+                     <button class="btn btn-danger" onclick="addToCart('Chicken 65', 160)">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4 pb-3">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Chicken lollipop</h5>
+                     <img src="https://tse2.mm.bing.net/th?id=OIP.YKu2nWWjoop_Xc2u4VX_XAHaEK&pid=Api&P=0&h=180" class="image" height="200" width="300"/>
+                     <p class="para">Rs.160</p>
+                     <button class="btn btn-danger" onclick="addToCart('Chicken lollipop', 160)">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4 pb-3">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Prawn 65</h5>
+                     <img src="http://1.bp.blogspot.com/-E9l-wQijbBc/VMyxrS904xI/AAAAAAAAMa4/1RrqxJ_5dcE/s1600/Prawns%2B65.jpg" class="image"  height="200" width="300"/>
+                     <p class="para">Rs.250</p>
+                     <button class="btn btn-danger" onclick="addToCart('Prawn 65', 250)">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4 pb-3">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Butter Chicken Masala</h5>
+                     <img src="https://tse4.mm.bing.net/th?id=OIP.Lb3ThsduV1PkQDR7KPPieAHaHa&pid=Api&P=0&h=180" class="image"  height="200" width="300"/>
+                     <p class="para">Rs.220</p>
+                     <button class="btn btn-danger" onclick="addToCart('Butter Chicken Masala', 220)">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4 pb-3">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Fish Curry</h5>
+                     <img src="https://www.whiskaffair.com/wp-content/uploads/2020/10/Goan-Fish-Curry-2-3.jpg" class="image" height="200" width="300"/>
+                     <p class="para">Rs.200</p>
+                     <button class="btn btn-danger" onclick="addToCart('Fish Curry', 200)">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4 pb-3">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Mutton Masala</h5>
+                     <img src="https://drop.ndtv.com/albums/COOKS/mutton-recipes-indian/muttongoshtnihari.jpg" class="image" height="200" width="300"/>
+                     <p class="para">Rs.200</p>
+                     <button class="btn btn-danger" onclick="addToCart('Mutton Masala', 200)">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4 pb-3">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Chicken Hyderabad Biriyani</h5>
+                     <img src="https://www.thedeliciouscrescent.com/wp-content/uploads/2019/04/Chicken-Biryani-Square.jpg" class="image" height="200" width="300"/>
+                     <p class="para">Rs.200</p>
+                     <button class="btn btn-danger" onclick="addToCart('Chicken Hyderabad Biriyani', 200)">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4 pb-3">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Mutton Dum Biriyani</h5>
+                     <img src="https://i.ytimg.com/vi/enBr-0BDSHs/maxresdefault.jpg" class="image" height="200" width="300"/>
+                     <p class="para">Rs.320</p>
+                     <button class="btn btn-danger" onclick="addToCart('Mutton Dum Biriyani', 320)">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4 pb-3">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Donne Chicken Biriyani</h5>
+                     <img src="https://mummyrecipes.in/wp-content/uploads/2020/01/DonneBiryaniCover.jpg" class="image" height="200" width="300"/>
+                     <p class="para">Rs.160</p>
+                     <button class="btn btn-danger" onclick="addToCart('Donne Chicken Biriyani', 160)">Add to cart</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <h1 class="head mt-5" id="sectionDesserts">Desserts</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Death By Chocalate</h5>
+                     <img src="https://tse4.mm.bing.net/th?id=OIP.Eqp0tIS-iit6dDFZpb-RTAHaE8&pid=Api&P=0&h=180" class="image" height="200" width="300"/>
+                     <p class="para">Rs.160</p>
+                     <button class="btn btn-dark" onclick="addToCart('Death By Chocalate', 160)">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4 pb-3">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Brownie Sizzler</h5>
+                     <img src="https://blogliterati.com/wp-content/uploads/2019/12/Homemade-Brownie-Sizzler-4.jpg" class="image" height="200" width="300"/>
+                     <p class="para">Rs.120</p>
+                     <button class="btn btn-dark" onclick="addToCart('Brownie Sizzler', 120)">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4 pb-3">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Scoop</h5>
+                     <img src="https://tse3.mm.bing.net/th?id=OIP.3numgnLp4u0hIAe6kvlSywHaDg&pid=Api&P=0&h=180" class="image"  height="200" width="300"/>
+                     <p class="para">Rs.90</p>
+                     <button class="btn btn-dark" onclick="addToCart('Scoop', 90)">Add to cart</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <h1 class="head mt-5" id="sectionCocktails">Cocktails</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Red Martini</h5>
+                     <img src="https://images.fineartamerica.com/images-medium-large-5/red-martini-spencer-mcdonald.jpg" class="image" height="200" width="300"/>
+                     <p class="para">Rs.150</p>
+                     <button class="btn btn-dark" onclick="addToCart('Red Martini', 150)">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4 pb-3">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Virgin Mojito</h5>
+                     <img src="https://tse4.mm.bing.net/th?id=OIP.7n4QNNwLxY6I0ddglfsMHwHaHa&pid=Api&P=0&h=180" class="image" height="200" width="300"/>
+                     <p class="para">Rs.120</p>
+                     <button class="btn btn-dark" onclick="addToCart('Virgin Mojito', 120)">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4 pb-3">
+                <div class="card-container shadow text-center pt-2 pb-2 menu-item">
+                     <h5 class="h5">Green Apple Martini</h5>
+                     <img src="https://coastalwandering.com/wp-content/uploads/2021/03/green-apple-martini-recipe-coastal-wandering-3.jpg" class="image"  height="200" width="300"/>
+                     <p class="para">Rs.170</p>
+                     <button class="btn btn-dark" onclick="addToCart('Green Apple Martini', 170)">Add to cart</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+<div class="d-flex flex-row justify-content-end">
+<button class="btn-view-cart" onclick="redirectToCart()">View Cart</button>
+</div>
+<script>
+  let cart = []; // Array to store cart items
+
+  // Function to add an item to the cart
+  function addToCart(name, price) {
+    cart.push({ name, price });
+
+    // Store the cart in localStorage for redirection
+    localStorage.setItem('cart', JSON.stringify(cart));
+    alert(`${name} added to cart!`);
+  }
+
+  // Function to redirect to the cart page
+  function redirectToCart() {
+    window.location.href = 'cart.html'; // Redirect to the cart page
+  }
+</script>
+
+
+</body>
+</html>
